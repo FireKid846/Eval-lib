@@ -1,0 +1,27 @@
+{
+  "name": "eval-lib",
+  "version": "1.0.0",
+  "description": "Discord command creation library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.7",
+    "cors": "^2.8.5",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.x"
+  }
+}
